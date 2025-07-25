@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { BarChart3, Github, Twitter, Linkedin, Mail } from 'lucide-react';
+import React from "react";
+import { Link } from "react-router-dom";
+import { BarChart3, Github, Twitter, Linkedin, Mail } from "lucide-react";
 
 const Footer: React.FC = () => {
   return (
@@ -9,24 +9,40 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
-            <Link to="/" className="flex items-center space-x-2 text-indigo-600 mb-4">
+            <Link
+              to="/"
+              className="flex items-center space-x-2 text-indigo-600 mb-4"
+            >
               <BarChart3 className="h-8 w-8" />
               <span className="font-bold text-xl">Excel Analytics</span>
             </Link>
             <p className="text-gray-600 mb-6 max-w-md">
-              Powerful platform for uploading Excel files, analyzing data, and generating interactive 2D and 3D charts with AI-powered insights.
+              Powerful platform for uploading Excel files, analyzing data, and
+              generating interactive 2D and 3D charts with AI-powered insights.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-indigo-600 transition-colors">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-indigo-600 transition-colors"
+              >
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-indigo-600 transition-colors">
+              <a
+                href="https://github.com/piyush192004/Excel-Analysis-Platform"
+                className="text-gray-400 hover:text-indigo-600 transition-colors"
+              >
                 <Github className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-indigo-600 transition-colors">
+              <a
+                href="https://www.linkedin.com/in/piyushksingh19/"
+                className="text-gray-400 hover:text-indigo-600 transition-colors"
+              >
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-indigo-600 transition-colors">
+              <a
+                href="mailto:pksingh84048@gmail.com"
+                className="text-gray-400 hover:text-indigo-600 transition-colors"
+              >
                 <Mail className="h-5 w-5" />
               </a>
             </div>
@@ -59,22 +75,34 @@ const Footer: React.FC = () => {
             <h3 className="font-semibold text-gray-900 mb-4">Support</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/help" className="text-gray-600 hover:text-indigo-600 transition-colors">
+                <Link
+                  to="/help"
+                  className="text-gray-600 hover:text-indigo-600 transition-colors"
+                >
                   Help Center
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-gray-600 hover:text-indigo-600 transition-colors">
+                <Link
+                  to="/contact"
+                  className="text-gray-600 hover:text-indigo-600 transition-colors"
+                >
                   Contact Us
                 </Link>
               </li>
               <li>
-                <Link to="/privacy" className="text-gray-600 hover:text-indigo-600 transition-colors">
+                <Link
+                  to="/privacy"
+                  className="text-gray-600 hover:text-indigo-600 transition-colors"
+                >
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link to="/terms" className="text-gray-600 hover:text-indigo-600 transition-colors">
+                <Link
+                  to="/terms"
+                  className="text-gray-600 hover:text-indigo-600 transition-colors"
+                >
                   Terms of Service
                 </Link>
               </li>
