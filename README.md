@@ -63,12 +63,20 @@ Role‑based access ensures that administrative or privileged features are only 
    ```bash
    cd project    # or appropriate folder name
    npm install
+   npm run dev
+   ```
+
+3. **Setup Server**  
+   ```bash
+   cd server    # or appropriate folder name
+   npm install
    # Create a .env file with:
    # MONGO_URI=your_mongodb_connection_string
    # JWT_SECRET=your_jwt_secret
-   npm start 
-   ```  
-3. **Access the Application**  
+   npm run dev
+   ```
+   
+4. **Access the Application**  
    Open your browser and navigate to `http://localhost:3000` (or whichever port is configured) to begin using the platform.
 
 ---
