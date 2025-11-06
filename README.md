@@ -59,22 +59,16 @@ Role‑based access ensures that administrative or privileged features are only 
    git clone https://github.com/piyush192004/Excel-Analysis-Platform.git
    cd Excel-Analysis-Platform
    ```  
-2. **Setup Backend**  
+2. **Setup Project**  
    ```bash
-   cd backend    # or appropriate folder name
+   cd project    # or appropriate folder name
    npm install
    # Create a .env file with:
    # MONGO_URI=your_mongodb_connection_string
    # JWT_SECRET=your_jwt_secret
-   npm run dev   # or npm start
+   npm start 
    ```  
-3. **Setup Frontend**  
-   ```bash
-   cd ../frontend   # or the client folder
-   npm install
-   npm start
-   ```  
-4. **Access the Application**  
+3. **Access the Application**  
    Open your browser and navigate to `http://localhost:3000` (or whichever port is configured) to begin using the platform.
 
 ---
@@ -91,16 +85,20 @@ Role‑based access ensures that administrative or privileged features are only 
 > Place your screenshots into a `screenshots/` folder and reference them here.
 
 ### 🔹 Upload Page  
-![Upload Page](screenshots/upload-page.png)
+<img width="1905" height="942" alt="image" src="https://github.com/user-attachments/assets/d56ea350-5e20-43be-81df-c8f42d9390fc" />
+
 
 ### 🔹 Data Analysis Dashboard  
-![Dashboard](screenshots/dashboard-page.png)
+<img width="1904" height="944" alt="image" src="https://github.com/user-attachments/assets/49d08466-0473-4142-bc47-397edb8821fc" />
+
 
 ### 🔹 Visualization & Tables  
-![Visualizations](screenshots/visualization-page.png)
+<img width="1905" height="945" alt="image" src="https://github.com/user-attachments/assets/a38468db-cbe3-4403-964e-4bf5b9032e8f" />
+
 
 ### 🔹 Responsive Mobile View  
-![Mobile View](screenshots/mobile-view.png)
+<img width="429" height="541" alt="image" src="https://github.com/user-attachments/assets/cd48bfdc-9f2f-4ef4-89ec-d99a419ed2ec" />
+
 
 ---
 
